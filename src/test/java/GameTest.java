@@ -64,7 +64,7 @@ public class GameTest {
     public void shouldNotRegisteredSecondPlayer() {
 
         Assertions.assertThrows(NotRegisteredException.class, () -> {
-            game.round("Player 2", "Player 6");
+            game.round("Player 2", "Player 7");
         });
     }
 }
