@@ -4,10 +4,11 @@ import ru.netology.domain.Player;
 import ru.netology.exception.NotRegisteredException;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Game {
 
-    ArrayList<Player> players = new ArrayList<>();
+    List<Player> players = new ArrayList<>();
 
     public void register(Player player) {
         players.add(player);
